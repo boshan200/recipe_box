@@ -1,4 +1,23 @@
-<% include ./partials/header %>
-<h1>This is the Landing Page</h1>
-<a href="/recipes">Go to view Recipes~~</a>
-<% include ./partials/footer %>
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/landing.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
+    <title>Recipe Box</title>
+</head>
+<body>
+    <div id="landing-header">
+        <h1>歡迎來到食譜盒子!</h1>
+        <a href="/recipes" class="btn btn-lg btn-success">看看我們的食譜</a>
+    </div>
+
+    <ul class="slideshow">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+<% include partials/footer %>
