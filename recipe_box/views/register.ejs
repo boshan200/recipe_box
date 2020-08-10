@@ -1,3 +1,51 @@
 <% include ./partials/header %>
-<h1>This is Register Form</h1>
+<h1 style="text-align: center;">This is Register Form</h1>
+<form style="width: 30%; margin: 25px auto;">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">電子郵件</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">密碼</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">姓名</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="輸入姓名">
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">大頭貼</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="請輸入圖片網址">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-12">
+            <label for="exampleFormControlTextarea1">簡介</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="個人簡介"></textarea>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="inputState">性別</label>
+            <select id="inputState" class="form-control">
+              <option selected>男性</option>
+              <option>女性</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">註冊</button>
+  </form>
 <% include ./partials/footer %>

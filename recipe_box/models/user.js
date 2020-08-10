@@ -8,6 +8,7 @@ var UserSchema = new Schema({
     password: String,
     avatar: String,
     description: String,
+    
 });
 
 UserSchema.plugin(passportLocalMongoose);

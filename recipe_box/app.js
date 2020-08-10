@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 var passport = require('passport');
 var LocalStrategy = require('passport-local');
 var session = require('express-session'),
-    User = require(".models/user");
+    User = require("./models/user");
 
 
 //database setting

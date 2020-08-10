@@ -1,3 +1,41 @@
 <% include ../partials/header %>
-<h1>This is Recipes</h1>
-<% include ../partials/footer %>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">食譜盒子</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">中式麵點</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">可口蛋糕</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">香脆餅乾</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">雞尾酒酒譜</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">義式料理</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="輸入料理名" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button>
+        </form>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="/register">註冊</a>
+          </li>
+          <li class="nav-item text-right">
+              <a class="nav-link" href="/login">登入</a>
+          </li>
+      </div>
+    </nav>
+    <% include ../partials/footer %>
